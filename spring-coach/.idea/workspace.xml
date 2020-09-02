@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea52cf26-de12-4473-b1e4-31d07dfa5cd8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gyA7kPUDgXEdi7M117r9mpKHn8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.luv2code.springdemo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HelloSpringApp">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.App" />
+      <module name="spring-coach" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloSpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.HelloSpringApp" />
+      <module name="spring-coach" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloSpringApp" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea52cf26-de12-4473-b1e4-31d07dfa5cd8" name="Default Changelist" comment="" />
+      <created>1599076292415</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599076292415</updated>
+      <workItem from="1599076293628" duration="4630000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="733" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1599086042754">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state x="733" y="241" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1011/1920.0.1920.1080/-1344.720.1344.840/-1280.0.1280.720@0.23.1920.1011" timestamp="1599086042754" />
+    <state x="658" y="310" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1599076775250">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state x="658" y="310" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1920.1011/1920.0.1920.1080/-1344.720.1344.840/-1280.0.1280.720@0.23.1920.1011" timestamp="1599076775250" />
+    <state width="1819" height="243" key="GridCell.Tab.0.bottom" timestamp="1599087479976">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state width="1819" height="243" key="GridCell.Tab.0.bottom/0.23.1920.1011/1920.0.1920.1080/-1344.720.1344.840/-1280.0.1280.720@0.23.1920.1011" timestamp="1599087479976" />
+    <state width="1819" height="243" key="GridCell.Tab.0.center" timestamp="1599087479976">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state width="1819" height="243" key="GridCell.Tab.0.center/0.23.1920.1011/1920.0.1920.1080/-1344.720.1344.840/-1280.0.1280.720@0.23.1920.1011" timestamp="1599087479976" />
+    <state width="1819" height="243" key="GridCell.Tab.0.left" timestamp="1599087479975">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state width="1819" height="243" key="GridCell.Tab.0.left/0.23.1920.1011/1920.0.1920.1080/-1344.720.1344.840/-1280.0.1280.720@0.23.1920.1011" timestamp="1599087479975" />
+    <state width="1819" height="243" key="GridCell.Tab.0.right" timestamp="1599087479976">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state width="1819" height="243" key="GridCell.Tab.0.right/0.23.1920.1011/1920.0.1920.1080/-1344.720.1344.840/-1280.0.1280.720@0.23.1920.1011" timestamp="1599087479976" />
+    <state x="658" y="207" key="spring file set editor" timestamp="1599084212045">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state x="658" y="207" key="spring file set editor/0.23.1920.1011/1920.0.1920.1080/-1344.720.1344.840/-1280.0.1280.720@0.23.1920.1011" timestamp="1599084212045" />
+  </component>
+</project>
