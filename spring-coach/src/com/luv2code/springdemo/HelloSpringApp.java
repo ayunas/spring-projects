@@ -18,6 +18,10 @@ public class HelloSpringApp {
 //		System.out.println(fortuneCoach.getDailyFortune());
 		System.out.println(theCoach.getDailyFortune());
 
+		Coach cricketCoach = context.getBean("cCoach",Coach.class);
+		System.out.println(cricketCoach.getDailyWorkout());
+		System.out.println(cricketCoach.getDailyFortune());
+
 		//close the context
 		context.close();
 	}

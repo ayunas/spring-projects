@@ -13,12 +13,19 @@
 <!--    <bean id="myCoach" class="com.luv2code.springdemo.TrackCoach"></bean>-->
 
 <!--    <bean id="myCoach" class="com.luv2code.springdemo.BaseballCoach"></bean>-->
+        <bean id="fortune" class="com.luv2code.springdemo.HappyFortuneService"></bean>
+
 
         <bean id="myCoach" class="com.luv2code.springdemo.TrackCoach">
             <constructor-arg ref="fortune"></constructor-arg>
         </bean>
 
-        <bean id="fortune" class="com.luv2code.springdemo.HappyFortuneService"></bean>
+
+        <bean id="cCoach" class="com.luv2code.springdemo.CricketCoach">
+            <property name="fortuneService" ref="fortune"></property>
+<!--            Spring Container will call the setFortuneService() method here .-->
+        </bean>
+
 
         <bean id="fCoach" class="com.luv2code.springdemo.FortuneCoach">
 <!--create constructor arg-->
