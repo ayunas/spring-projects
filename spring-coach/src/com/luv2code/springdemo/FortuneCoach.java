@@ -20,4 +20,5 @@ public class FortuneCoach implements Coach {
 	public String getDailyFortune() {
 		return this.fortuneService.getFortune();
 	}
+	//create a getter that returns.  the private field's fortune getter()
 }

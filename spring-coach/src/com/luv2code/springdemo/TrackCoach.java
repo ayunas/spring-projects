@@ -1,6 +1,14 @@
 package com.luv2code.springdemo;
 
+import javax.sound.midi.Track;
+
 public class TrackCoach implements Coach {
+
+	private FortuneService fortuneService;
+
+	public TrackCoach(FortuneService fs) {
+		this.fortuneService = fs;
+	}
 
 	@Override
 	public String getDailyWorkout() {
@@ -9,6 +17,6 @@ public class TrackCoach implements Coach {
 
 	@Override
 	public String getDailyFortune() {
-		return null;
+		return "Just do it..." + this.fortuneService.getFortune();
 	}
 }
