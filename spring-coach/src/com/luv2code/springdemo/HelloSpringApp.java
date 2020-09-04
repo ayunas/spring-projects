@@ -10,6 +10,10 @@ public class HelloSpringApp {
 
 		//retrieve bean from spring container
 		Coach theCoach = context.getBean("myCoach",Coach.class);
+		Coach coach2 = context.getBean("myCoach",Coach.class);
+		System.out.println(coach2 == theCoach);
+
+
 
 //		Coach fortuneCoach = context.getBean("fCoach",Coach.class);
 
