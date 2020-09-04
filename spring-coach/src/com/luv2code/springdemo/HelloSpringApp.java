@@ -22,6 +22,17 @@ public class HelloSpringApp {
 		System.out.println(cricketCoach.getDailyWorkout());
 		System.out.println(cricketCoach.getDailyFortune());
 
+		Coach tennisCoach = context.getBean("tCoach",Coach.class);
+		System.out.println("\n" + tennisCoach.getDailyWorkout());
+		System.out.println(tennisCoach.getDailyFortune());
+
+		TrainingCoach trainingCoach = context.getBean("trainer", TrainingCoach.class);
+		System.out.println("\n" + trainingCoach.getDailyWorkout());
+		System.out.println(trainingCoach.getDailyFortune());
+		System.out.println(trainingCoach.getName());
+		System.out.println(trainingCoach.getEducation());
+		System.out.println(trainingCoach.getEmail());
+
 		//close the context
 		context.close();
 	}
