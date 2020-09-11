@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/index")
 public class HelloController {
-
 	@GetMapping("/")
 	public String index(Model m) {
 		m.addAttribute("message", "Hello World");
 		return "index";
 	}
+
 }

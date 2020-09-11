@@ -11,7 +11,7 @@
     <title>Hello SpringMVC Form</title>
 </head>
 <body>
-    <form action="processForm" method="get">
+    <form action="processForm-3" method="get">
 <%--        the action= is the urlPattern over at the controller the name of the input is the param.studentName that goes to controller and gets sent out of the controller method--%>
         <input type="text" name="studentName" placeholder="What is your name?" />
         <input type="submit" />
