@@ -14,7 +14,7 @@
         <p>Student name : ${param.studentName}  </p>
         <p>The message : ${message} </p>
         <a href="form">Return to Form</a>
-        <a href="silly-form">Go to the Silly Page</a>
+        <a href="silly/form">Go to the Silly Page</a>
         <a href="${pageContext.request.contextPath}/">Go Home</a>
     </body>
 </html>
