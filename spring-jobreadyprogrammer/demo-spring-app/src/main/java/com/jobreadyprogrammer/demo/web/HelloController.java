@@ -2,6 +2,7 @@ package com.jobreadyprogrammer.demo.web;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -31,9 +32,26 @@ public class HelloController {
 	}
 
 	@RequestMapping(value="/user-greeting", method=RequestMethod.POST)
-	public String userGreeting() {
-		return "welcome user! you have made it to the inside!";
+	public String userGreeting(@RequestParam String fname, @RequestParam String lname) {
+		return "welcome " + fname + " " + lname + "! you have made it to the inside!";
 	}
+
+	@RequestMapping("/form-query-params")
+	public String queryFormWithParams() {
+		return "<form action=\"/greeting/process-form-query\" method=\"get\">\n" +
+				"  <label for=\"fname\">First name:</label>\n" +
+				"  <input type=\"text\" id=\"fname\" name=\"fname\"><br><br>\n" +
+				"  <label for=\"lname\">Last name:</label>\n" +
+				"  <input type=\"text\" id=\"lname\" name=\"lname\"><br><br>\n" +
+				"  <input type=\"submit\" value=\"Submit\">\n" +
+				"</form>";
+	}
+
+	@RequestMapping("/process-form-query")
+	public String processQueryForm(@RequestParam String fname, @RequestParam String lname) {
+		return "welcome " + fname + " " + lname;
+	}
+
 
 	@RequestMapping("/link-me")
 	public String linked() {
